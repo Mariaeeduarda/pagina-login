@@ -13,7 +13,7 @@
         <main>
             <div class="background" style="background-image: url('images/background.jpeg');">
                 <div class="login-box">
-                    <h2><span>Login</span></h2>
+                    <h2><span>LOGIN</span></h2>
                     <form>
                         <div class="user-box">
                             <input type="text" name="email" required>
@@ -23,13 +23,14 @@
                             <input type="password" id="senha" required>
                             <label for="password">Senha</label>
                         </div>
-                        <div class="checkbox">
-                            <input type="checkbox" onclick="mostrarOcultarSenha()" ><a id="mostrar">Mostrar Senha</a> 
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" name="lembrar">
-                            <a>Lembrar de mim</a>
-                        </div>
+                      <div class="checkbox">
+                            <input type="checkbox" onclick="mostrarOcultarSenha()" id="checkboxsenha">
+                            <label for= "checkboxsenha">Mostrar Senha</label>
+                      </div>
+                      <div class="checkbox">
+                           <input type="checkbox" id="checkboxlembrar" >
+                           <label for= "checkboxlembrar">Lembrar de mim</label>
+                      </div>
 
                         <a href="#" id="entrar">
                             <span></span>
